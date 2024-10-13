@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"CONEJO",
   "resources":[
@@ -74,6 +74,7 @@
     {"id":{"name":"Spr_Jump","path":"sprites/Spr_Jump/Spr_Jump.yy",},},
     {"id":{"name":"Spr_leafs","path":"sprites/Spr_leafs/Spr_leafs.yy",},},
     {"id":{"name":"Spr_pastito","path":"sprites/Spr_pastito/Spr_pastito.yy",},},
+    {"id":{"name":"Spr_Player_Lvl2","path":"sprites/Spr_Player_Lvl2/Spr_Player_Lvl2.yy",},},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},},
     {"id":{"name":"spr_shadow_1","path":"sprites/spr_shadow_1/spr_shadow_1.yy",},},
     {"id":{"name":"Spr_Shadow","path":"sprites/Spr_Shadow/Spr_Shadow.yy",},},
