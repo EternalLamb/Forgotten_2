@@ -8,4 +8,8 @@ if (room == Room2)
 	room_goto(Room3);
 }
 
+if (room == Room3)
+{
+	room_goto(testing_room);
+}
 

@@ -2,6 +2,10 @@ function scr_game_text(_text_id){
 	
 switch(_text_id)
 {
+	case "Player Lvl 1":
+	scr_text("Arg.... donde estoy?.....", "Player");
+	scr_text("No lo se, quien eres tú?", "Shadow", -1);
+	break;
 	case "obj 1":
 	
 	scr_text("Hola, soy el protagonista de esta gran historia", "Player");

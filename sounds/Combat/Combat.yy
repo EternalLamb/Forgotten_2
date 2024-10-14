@@ -12,8 +12,8 @@
   "duration":160.20898,
   "name":"Combat",
   "parent":{
-    "name":"Music",
-    "path":"folders/Sonidos/Music.yy",
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

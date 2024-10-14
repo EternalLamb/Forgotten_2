@@ -12,8 +12,8 @@
   "duration":280.2184,
   "name":"environment",
   "parent":{
-    "name":"Music",
-    "path":"folders/Sonidos/Music.yy",
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

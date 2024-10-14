@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"CONEJO",
   "resources":[
@@ -65,7 +65,11 @@
     {"id":{"name":"PlayerState_Free","path":"scripts/PlayerState_Free/PlayerState_Free.yy",},},
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},},
     {"id":{"name":"scr_textbox_fuctions","path":"scripts/scr_textbox_fuctions/scr_textbox_fuctions.yy",},},
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
+    {"id":{"name":"Combat","path":"sounds/Combat/Combat.yy",},},
+    {"id":{"name":"env2","path":"sounds/env2/env2.yy",},},
+    {"id":{"name":"environment","path":"sounds/environment/environment.yy",},},
+    {"id":{"name":"envlvl2","path":"sounds/envlvl2/envlvl2.yy",},},
+    {"id":{"name":"envlvl3","path":"sounds/envlvl3/envlvl3.yy",},},
     {"id":{"name":"spe_shadow_2","path":"sprites/spe_shadow_2/spe_shadow_2.yy",},},
     {"id":{"name":"spr_Atextbox","path":"sprites/spr_Atextbox/spr_Atextbox.yy",},},
     {"id":{"name":"Spr_AttackSlash","path":"sprites/Spr_AttackSlash/Spr_AttackSlash.yy",},},

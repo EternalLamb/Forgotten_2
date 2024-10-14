@@ -1,4 +1,8 @@
+text_id = "";
+
 state = PLAYERSTATE.FREE;
+
+
 HitByAttack = ds_list_create();
 
 
