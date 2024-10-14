@@ -60,6 +60,8 @@
     {"id":{"name":"Combat","path":"sounds/Combat/Combat.yy",},},
     {"id":{"name":"environment","path":"sounds/environment/environment.yy",},},
     {"id":{"name":"environment2","path":"sounds/environment2/environment2.yy",},},
+    {"id":{"name":"environmentLevel2","path":"sounds/environmentLevel2/environmentLevel2.yy",},},
+    {"id":{"name":"environmentLevel3","path":"sounds/environmentLevel3/environmentLevel3.yy",},},
     {"id":{"name":"spe_shadow_2","path":"sprites/spe_shadow_2/spe_shadow_2.yy",},},
     {"id":{"name":"spr_Atextbox","path":"sprites/spr_Atextbox/spr_Atextbox.yy",},},
     {"id":{"name":"Spr_bunny_face","path":"sprites/Spr_bunny_face/Spr_bunny_face.yy",},},
