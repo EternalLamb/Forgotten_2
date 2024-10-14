@@ -1,4 +1,4 @@
-if place_free(x-3, y)
+/*if place_free(x-3, y)
 {
 	x -= 3;	
 	sprite_index = Spr_Walk;

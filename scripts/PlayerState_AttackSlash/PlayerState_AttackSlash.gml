@@ -1,0 +1,1 @@
+if (sprite_index != Spr_AttackSlash)

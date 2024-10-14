@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Block",
+  "%Name":"Obj_death",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Block",
+  "name":"Obj_death",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_death",
+    "path":"sprites/Spr_death/Spr_death.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
