@@ -32,5 +32,5 @@
     "path":"sprites/Spri_Can_Jump/Spri_Can_Jump.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

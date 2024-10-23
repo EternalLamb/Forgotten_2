@@ -12,13 +12,6 @@ if (vspeed > 0)
 		vspeed = 0;
 		gravity = 0;
 	}
-	if (trepado == true)
-	{
-		vspeed = 0;
-		gravity = 0;
-		if()
-
-	}
 }
 else if (vspeed < 0) 
 {
@@ -31,4 +24,4 @@ else if (vspeed < 0)
 	}
 }
 
-trepado = false;
+

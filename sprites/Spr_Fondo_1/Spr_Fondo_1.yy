@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Mapa",
-    "path":"folders/Sprites/Mapa.yy",
+    "name":"Backgorunds",
+    "path":"folders/Sprites/Backgorunds.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
