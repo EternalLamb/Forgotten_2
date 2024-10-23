@@ -11,3 +11,4 @@ switch (state)
 	case PLAYERSTATE.ATTACK_SLASH: PlayerState_AttackSlash()
 	break;
 }
+
