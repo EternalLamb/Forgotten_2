@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Liana",
+  "%Name":"Obj_tree_purple",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Liana",
+  "name":"Obj_tree_purple",
   "overriddenProperties":[],
   "parent":{
     "name":"Mapa",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_pastito",
-    "path":"sprites/Spr_pastito/Spr_pastito.yy",
+    "name":"spr_down_purple",
+    "path":"sprites/spr_down_purple/spr_down_purple.yy",
   },
   "spriteMaskId":null,
   "visible":true,

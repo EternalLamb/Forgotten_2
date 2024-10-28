@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Liana",
+  "%Name":"Obj_lol",
   "eventList":[],
   "managed":true,
-  "name":"Obj_Liana",
+  "name":"Obj_lol",
   "overriddenProperties":[],
   "parent":{
     "name":"Mapa",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_pastito",
-    "path":"sprites/Spr_pastito/Spr_pastito.yy",
+    "name":"Spr_Fondo_4",
+    "path":"sprites/Spr_Fondo_4/Spr_Fondo_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
