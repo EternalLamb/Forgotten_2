@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_spider",
-  "eventList":[],
+  "%Name":"Obj_enemigo3",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_spider",
+  "name":"Obj_enemigo3",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemigos",
@@ -26,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Spr_Spider_1",
-    "path":"sprites/Spr_Spider_1/Spr_Spider_1.yy",
+    "name":"Spr_enemigo3",
+    "path":"sprites/Spr_enemigo3/Spr_enemigo3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
