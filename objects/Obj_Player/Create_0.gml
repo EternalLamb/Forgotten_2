@@ -1,3 +1,5 @@
+vida = 3; //vida del player
+
 trepado = false;
 text_id = "";
 

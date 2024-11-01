@@ -52,3 +52,7 @@ if (trepado == true)
 	}
 }
 #endregion
+
+if (vida <= 0) {
+    room_restart(); // Reinicia el nivel actual
+}
