@@ -1,3 +1,9 @@
+//conejito darle pape
+if(place_meeting(x,y,Obj_Player))
+{
+ HP -=1;	
+}
+
 // Mover al enemigo hacia el objetivo
 x += direccion * velocidad;
 
@@ -23,3 +29,4 @@ if (velocidad != 0) {
 }
 
 
+	

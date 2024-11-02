@@ -10,6 +10,18 @@ if (room == Room2)
 
 if (room == Room3)
 {
-	room_goto(testing_room);
+	room_goto(Room5);
+}
+if (room == Room5)
+{
+	room_goto(Room6);
+}
+if (room == Room6)
+{
+	room_goto(Room7);
+}
+if (room == Room7)
+{
+	room_goto(Room8);
 }
 

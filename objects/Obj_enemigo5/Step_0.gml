@@ -1,3 +1,4 @@
+
 x += direccion * velocidad;
 
 // Verificar si el enemigo llegó al punto objetivo

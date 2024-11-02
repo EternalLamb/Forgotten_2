@@ -4,7 +4,7 @@ if (trepado == true)
 {
  sprite_index = Spr_Grab;	
 }
-else
+if (Golpeando == true)
 {
-sprite_index = Spr_Player;	
+	sprite_index = Spr_AttackSlash;	
 }

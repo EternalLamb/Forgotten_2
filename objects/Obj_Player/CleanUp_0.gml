@@ -1,1 +1,1 @@
-ds_list_destroy(HitByAttack);
+//ds_list_destroy(HitByAttack);

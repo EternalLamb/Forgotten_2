@@ -1,5 +1,9 @@
+original_sprite = Spr_Player;
+
+
 vida = 3; //vida del player
 
+Golpeando = false;
 trepado = false;
 text_id = "";
 
