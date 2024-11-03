@@ -4,7 +4,7 @@ if (trepado == true)
 {
  sprite_index = Spr_Grab;	
 }
-if (Golpeando == true)
+if (global.Golpeando == true)
 {
 	sprite_index = Spr_AttackSlash;	
 }

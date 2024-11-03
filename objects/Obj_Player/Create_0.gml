@@ -3,6 +3,6 @@ Can_Attack = false;
 
 vida = 3; //vida del player
 
-Golpeando = false;
+global.Golpeando = false;
 trepado = false;
 

@@ -3,9 +3,9 @@ key_Right = keyboard_check(ord("D"));
 key_climb = keyboard_check(ord("W"));
 key_jump = keyboard_check_pressed(vk_space);
 keyAttack = mouse_check_button_pressed(mb_left);
-Golpeando = false;
 Liana = false;
 indice_frame = sprite_index;
+
 
 #region MOVIEMIENTO
 var hor  = keyboard_check(ord("D")) - keyboard_check(ord("A"));
@@ -81,23 +81,27 @@ if (vida <= 0) {
 #endregion
 
 #region COMBATE
-if (room != Room1)
+if (Can_Attack == true)
 {
-	if (keyAttack == true && indice_frame != 4)
+
+{
+	if (keyAttack == true)
 	{
-		Golpeando = true;
+		global.Golpeando = true;
 	}
 	else
 	{
-		Golpeando = false	
+		global.Golpeando = false	
 	}
-	if (Golpeando == true)
-	{
-		mask_index = Spr_AttackSlash_1;
-		if (indice_frame == 4)
+	if (global.Golpeando == true)
+	
+		sprite_index = Spr_AttackSlash;
+		image_index = 0;
+		if (image_index == 10)
 		{
-			Golpeando = false;	
-			mask_index = Spr_Player;
+			global.Golpeando = false;
+			sprite_index = Spr_Player;
+			image_index = 0;
 		}
 	}
 }

@@ -1,17 +1,7 @@
-if(place_meeting(x,y,Obj_Player))
+if (HP == 0)
 {
- HP -=1;	
+instance_destroy();	
 }
-//Empuje
-if (place_meeting(x-1,y,Obj_Player))
-{
-	x += 3;	
-}
-if (place_meeting(x+1,y,Obj_Player))
-{
-	x -= 3;	
-}
-
 x += direccion * velocidad;
 
 // Verificar si el enemigo llegó al punto objetivo
