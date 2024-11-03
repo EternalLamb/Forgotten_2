@@ -6,8 +6,8 @@
   "name":"Obj_death",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Cuadros",
+    "path":"folders/Objetos/Cuadros.yy",
   },
   "parentObjectId":null,
   "persistent":false,

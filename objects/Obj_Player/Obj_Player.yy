@@ -8,9 +8,9 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Door","path":"objects/Obj_Door/Obj_Door.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_death","path":"objects/Obj_death/Obj_death.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":76,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_sword","path":"objects/Obj_sword/Obj_sword.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_Player",
@@ -41,6 +41,9 @@
     "name":"Spr_Player",
     "path":"sprites/Spr_Player/Spr_Player.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Spr_Player",
+    "path":"sprites/Spr_Player/Spr_Player.yy",
+  },
   "visible":true,
 }

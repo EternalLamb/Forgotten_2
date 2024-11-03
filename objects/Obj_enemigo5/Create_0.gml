@@ -1,5 +1,5 @@
 //puntitos de vida
-HP = 3;
+HP = 6;
 
 // Variables para controlar el movimiento
 velocidad = 2;

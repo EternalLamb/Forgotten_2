@@ -1,3 +1,5 @@
+
+
 // Mover al enemigo hacia el objetivo
 x += direccion * velocidad;
 

@@ -1,3 +1,6 @@
+// Vida
+HP = 6
+
 // Variables para controlar el movimiento
 velocidad = 2;
 direccion = 1;  // 1 para derecha, -1 para izquierda

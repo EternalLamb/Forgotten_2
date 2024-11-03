@@ -1,3 +1,5 @@
+
+
 // Detectar si el jugador está dentro del rango de ataque
 var rango_izquierdo = min(puntoA.x, puntoB.x);
 var rango_derecho = max(puntoA.x, puntoB.x);

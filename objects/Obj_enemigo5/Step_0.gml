@@ -1,3 +1,16 @@
+if(place_meeting(x,y,Obj_Player))
+{
+ HP -=1;	
+}
+//Empuje
+if (place_meeting(x-1,y,Obj_Player))
+{
+	x += 3;	
+}
+if (place_meeting(x+1,y,Obj_Player))
+{
+	x -= 3;	
+}
 
 x += direccion * velocidad;
 
