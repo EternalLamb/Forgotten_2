@@ -13,3 +13,5 @@ puntoB = instance_nearest(x, y, Obj_puntoB);
 objetivo_x = puntoB.x;
 
 sprite_index = Spr_enemigo1_move
+
+rango_ataque = 32; // Ajusta el valor según el rango de ataque deseado

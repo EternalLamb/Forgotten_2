@@ -1,9 +1,11 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-HP -= 1;
-if (HP == 0)
-{
-	instance_destroy();
+HP -= 3;
+if (HP > 0) {
+    HP -= 1;
+    if (HP == 0) {
+        instance_destroy();
+    }
 }
 
 //Empuje

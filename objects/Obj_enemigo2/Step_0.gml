@@ -1,25 +1,47 @@
-
-
-// Mover al enemigo hacia el objetivo
-x += direccion * velocidad;
-
-// Comprobar si el enemigo llegó al punto objetivo
-if (direccion == 1 && x >= objetivo_x) {
-    // Cambiar la dirección a la izquierda
-    direccion = -1;
-    objetivo_x = puntoA.x;
-    image_xscale = -1;  // Voltear el sprite horizontalmente
-} 
-else if (direccion == -1 && x <= objetivo_x) {
-    // Cambiar la dirección a la derecha
-    direccion = 1;
-    objetivo_x = puntoB.x;
-    image_xscale = 1;  // Restaurar el sprite
+if(place_meeting(x,y,Obj_Player))
+{
+ HP -=1;	
+}
+//Empuje
+if (place_meeting(x-1,y,Obj_Player))
+{
+	x += 3;	
+}
+if (place_meeting(x+1,y,Obj_Player))
+{
+	x -= 3;	
 }
 
-// Cambiar entre los sprites según el movimiento
+x += direccion * velocidad;
+
+// Verificar si el enemigo llegó al punto objetivo
+if (direccion == 1 && x >= puntoB.x) {
+    direccion = -1;
+    image_xscale = -1;
+} 
+else if (direccion == -1 && x <= puntoA.x) {
+    direccion = 1;
+    image_xscale = 1;
+}
+
+// Cambiar el sprite según el movimiento
 if (velocidad != 0) {
-    sprite_index = Spr_enemigo2_move;  // Mostrar animación de caminar
+    sprite_index = Spr_enemigo2_move;
 } else {
-    sprite_index = Spr_enemigo2;  // Mostrar sprite de quieto
+    sprite_index = Spr_enemigo2;
+}
+
+// Verificar si el jugador está en el rango de ataque
+if (instance_exists(Obj_Player)) {
+    var distancia = point_distance(x, y, Obj_Player.x, Obj_Player.y);
+
+    if (distancia < rango_ataque) {
+        sprite_index = Spr_enemigo2_attack;
+
+        if (alarm[0] <= 0) {
+            Obj_Player.vida -= 0.5;
+            show_debug_message("Daño al jugador. Vida restante: " + string(Obj_Player.vida));
+            alarm[0] = 30;
+        }
+    }
 }

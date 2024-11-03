@@ -1,7 +1,9 @@
-HP -= 1;
-if (HP == 0)
-{
-	instance_destroy();
+HP -= 3;
+if (HP > 0) {
+    HP -= 1;
+    if (HP == 0) {
+        instance_destroy();
+    }
 }
 
 //Empuje
