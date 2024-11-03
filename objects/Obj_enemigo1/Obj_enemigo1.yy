@@ -13,7 +13,10 @@
     "name":"Enemigos",
     "path":"folders/Objetos/Enemigos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Enemy",
+    "path":"objects/Obj_Enemy/Obj_Enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +33,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Spr_enemigo1",
     "path":"sprites/Spr_enemigo1/Spr_enemigo1.yy",

@@ -81,28 +81,32 @@ if (vida <= 0) {
 #endregion
 
 #region COMBATE
-if (Can_Attack == true)
-{
+if (Can_Attack == true) {
+    if (keyAttack == true && !global.Golpeando) {  // Solo inicia el ataque si no estamos golpeando
+        global.Golpeando = true;
+        image_index = 0;
+        image_speed = 0.5;  // Ajusta la velocidad de la animación para que se vea mejor
+    }
 
+   if (global.Golpeando == true)
 {
-	if (keyAttack == true)
-	{
-		global.Golpeando = true;
-	}
-	else
-	{
-		global.Golpeando = false	
-	}
-	if (global.Golpeando == true)
-	
-		sprite_index = Spr_AttackSlash;
-		image_index = 0;
-		if (image_index == 10)
+	sprite_index = Spr_AttackSlash;	
+	mask_index = Spr_hitbox;
+		if(image_index == 1)
 		{
-			global.Golpeando = false;
-			sprite_index = Spr_Player;
-			image_index = 0;
+		global.Dano = true;	
 		}
-	}
+		else
+		{
+		global.Dano = false;	
+		}
+        // Permitir que la animación se reproduzca hasta el final
+        if (image_index = 3) {
+            global.Golpeando = false;
+			mask_index = Spr_Player;
+            sprite_index = Spr_Player;  // Regresa a la animación del jugador
+            image_speed = 1;  // Restaurar la velocidad de la animación normal
+        }
+    }
 }
 #endregion

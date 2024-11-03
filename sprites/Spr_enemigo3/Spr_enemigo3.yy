@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Enemigos",
-    "path":"folders/Sprites/Enemigos.yy",
+    "name":"Murcielago",
+    "path":"folders/Sprites/Enemigos/Murcielago.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

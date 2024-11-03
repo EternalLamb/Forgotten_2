@@ -1,5 +1,5 @@
-// Vida
-HP = 6
+//puntitos de vida
+HP = 8;
 
 // Variables para controlar el movimiento
 velocidad = 2;
@@ -12,7 +12,6 @@ puntoB = instance_nearest(x, y, Obj_puntoB);
 // Definir el objetivo inicial
 objetivo_x = puntoB.x;
 
-sprite_index = Spr_enemigo2_move
+sprite_index = Spr_enemigo1_move
 
-rango_ataque = 32; // Ajusta el valor según el rango de ataque deseado
-
+rango_ataque = 32;

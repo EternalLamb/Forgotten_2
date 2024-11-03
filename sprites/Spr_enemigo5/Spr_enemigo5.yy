@@ -44,8 +44,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Enemigos",
-    "path":"folders/Sprites/Enemigos.yy",
+    "name":"Slime",
+    "path":"folders/Sprites/Enemigos/Slime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

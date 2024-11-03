@@ -23,7 +23,6 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5247d194-1beb-452c-b5b8-d91595b8dcdf","blendMode":0,"displayName":"default","isLocked":false,"name":"5247d194-1beb-452c-b5b8-d91595b8dcdf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"9dfc1749-481d-437f-8ad0-868d1e0889d2","blendMode":0,"displayName":"HitBox","isLocked":false,"name":"9dfc1749-481d-437f-8ad0-868d1e0889d2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"Spr_AttackSlash",
   "nineSlice":null,
