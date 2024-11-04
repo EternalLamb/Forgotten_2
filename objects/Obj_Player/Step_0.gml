@@ -81,6 +81,10 @@ if (vida <= 0) {
 #endregion
 
 #region COMBATE
+if (room != Room1)
+{
+	Can_Attack = true;	
+}
 if (Can_Attack == true) {
     if (keyAttack == true && !global.Golpeando) {  // Solo inicia el ataque si no estamos golpeando
         global.Golpeando = true;

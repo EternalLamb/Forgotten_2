@@ -26,7 +26,7 @@
   ],
   "name":"Spr_enemigo2_attack",
   "nineSlice":null,
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Arbol",
     "path":"folders/Sprites/Enemigos/Arbol.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":0,
+    "yorigin":93,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

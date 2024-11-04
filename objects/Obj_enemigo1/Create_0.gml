@@ -18,4 +18,3 @@ objetivo_x = puntoB.x;
 sprite_index = Spr_enemigo1_move
 Atacando = false;
 Danando = false;
-rango_ataque = 32;

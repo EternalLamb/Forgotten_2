@@ -1,1 +1,1 @@
-text_id = "obj 1"
+text_id = "Sword"

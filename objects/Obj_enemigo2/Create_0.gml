@@ -1,5 +1,8 @@
 //puntitos de vida
-HP = 8;
+health = 2;
+is_dead = false;
+target = Obj_puntoA;
+distance_threshold = 5;
 
 // Variables para controlar el movimiento
 velocidad = 2;
@@ -13,5 +16,5 @@ puntoB = instance_nearest(x, y, Obj_puntoB);
 objetivo_x = puntoB.x;
 
 sprite_index = Spr_enemigo1_move
-
-rango_ataque = 32;
+Atacando = false;
+Danando = false;
