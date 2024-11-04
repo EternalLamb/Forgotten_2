@@ -38,7 +38,7 @@ switch(_text_id)
 	scr_text("Amigo?... Estas bien?", "Shadow", -1);
 	scr_text("Si... creo.. que puedo recordar algo..", "Player");
 	scr_text("De verdad?! eso es genial! ", "Shadow", -1);
-	scr_text("Este casco... es mio... lo usé cuando combati con la bestia...", "Player");
+	scr_text("Este casco... es mio... lo use cuando luche con la bestia...", "Player");
 	scr_text("Que?! luchaste con la bestia?! como es que sigues con vida!", "Shadow", -1);
 	scr_text("No lo se... pero debo derrotarla... aunque no se si pueda hacerlo....", "Player");
 	scr_text("Uhm... tranquilo amigo, yo estoy contigo, te acompañare y esta vez lograras derrotarla", "Shadow", -1);
