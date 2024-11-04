@@ -13,12 +13,12 @@ if (!is_dead) {
     x += lengthdir_x(speed, dir);
     y += lengthdir_y(speed, dir);
     
-    // Cambiar sprite si el jugador está cerca
+ /*   // Cambiar sprite si el jugador está cerca
     if (instance_exists(Obj_Player) && distance_to_object(Obj_Player) < distance_threshold) {
         sprite_index = Spr_enemigo1_attack; // Cambiar a sprite de ataque
     } else {
         sprite_index = Spr_enemigo1_move; // Regresar al sprite normal
-    }
+    }*/
 
     // Comprobar si el enemigo ha muerto
     if (health <= 0) {

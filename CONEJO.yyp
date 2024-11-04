@@ -49,7 +49,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"CONEJO",
   "resources":[
@@ -95,6 +95,8 @@
     {"id":{"name":"Object32","path":"objects/Object32/Object32.yy",},},
     {"id":{"name":"Object38","path":"objects/Object38/Object38.yy",},},
     {"id":{"name":"Objlol2","path":"objects/Objlol2/Objlol2.yy",},},
+    {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
@@ -177,6 +179,7 @@
     {"id":{"name":"Spr_Walk","path":"sprites/Spr_Walk/Spr_Walk.yy",},},
     {"id":{"name":"Spr_Web","path":"sprites/Spr_Web/Spr_Web.yy",},},
     {"id":{"name":"Spri_Can_Jump","path":"sprites/Spri_Can_Jump/Spri_Can_Jump.yy",},},
+    {"id":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -189,6 +192,8 @@
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"roomId":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
     {"roomId":{"name":"testing_room","path":"rooms/testing_room/testing_room.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

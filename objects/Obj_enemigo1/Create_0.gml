@@ -1,7 +1,21 @@
-// En el evento Create
-health = 10; // Salud inicial del enemigo
-is_dead = false; // Variable para controlar si el enemigo está muerto
-speed = 2; // Velocidad de movimiento
-target = Obj_puntoB; // Inicialmente, el objetivo es el punto B
-distance_threshold = 50; // Distancia para cambiar al sprite de ataque
-attack_damage = 1; // Daño que causa al jugador
+//puntitos de vida
+health = 2;
+is_dead = false;
+target = Obj_puntoA;
+distance_threshold = 5;
+
+// Variables para controlar el movimiento
+velocidad = 2;
+direccion = 1;  // 1 para derecha, -1 para izquierda
+
+// Puntos de patrullaje
+puntoA = instance_nearest(x, y, Obj_puntoA);
+puntoB = instance_nearest(x, y, Obj_puntoB);
+
+// Definir el objetivo inicial
+objetivo_x = puntoB.x;
+
+sprite_index = Spr_enemigo1_move
+Atacando = false;
+Danando = false;
+rango_ataque = 32;

@@ -1,21 +1,13 @@
-// Evento de colisión con el ataque del jugador
-if (global.Dano == true) { // Verifica si la colisión es con la hitbox
+if (global.Dano == true) { // Verifica si la colisión es con la hitbox del jugador atacando
     if (!is_dead) { // Solo aplica daño si el enemigo no está muerto
-        health -= 10; // Aplica daño (ajusta según sea necesario)
+        health -= 1; // Aplica daño al enemigo (ajusta según sea necesario)
 
-        // Retroceder al enemigo
-        var knockback_distance = 10; // Distancia a retroceder
-        var knockback_direction = point_direction(x, y, other.x, other.y); // Calcula la dirección de retroceso
-
-        // Mueve al enemigo en la dirección opuesta al jugador
-        x += lengthdir_x(knockback_distance, knockback_direction);
-        y += lengthdir_y(knockback_distance, knockback_direction);
+        // Comprueba si el enemigo ha muerto
+        if (health <= 0) {
+            is_dead = true; // Marca al enemigo como muerto
+            sprite_index = Spr_Rino_Dead; // Cambia a la animación de muerte
+            image_index = 0; // Comienza desde el primer frame de la animación de muerte
+            image_speed = 0.5; // Ajusta la velocidad de la animación de muerte
+        }
     }
-}
-
-// Evento de colisión con el jugador
-if (other == Obj_Player) {
-    if (!is_dead) { // Solo causa daño si el enemigo no está muerto
-        other.vida -= attack_damage; // Causar daño al jugador (ajusta la variable de salud del jugador según tu implementación)
-    }
-}
+} 

@@ -68,6 +68,8 @@
     {"name":"Object32","order":16,"path":"objects/Object32/Object32.yy",},
     {"name":"Object38","order":4,"path":"objects/Object38/Object38.yy",},
     {"name":"Objlol2","order":10,"path":"objects/Objlol2/Objlol2.yy",},
+    {"name":"Game_Over","order":8,"path":"rooms/Game_Over/Game_Over.yy",},
+    {"name":"Menu","order":7,"path":"rooms/Menu/Menu.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"Room5","order":3,"path":"rooms/Room5/Room5.yy",},
@@ -135,5 +137,6 @@
     {"name":"Spr_vida3","order":6,"path":"sprites/Spr_vida3/Spr_vida3.yy",},
     {"name":"Spr_Walk","order":3,"path":"sprites/Spr_Walk/Spr_Walk.yy",},
     {"name":"Spr_Web","order":11,"path":"sprites/Spr_Web/Spr_Web.yy",},
+    {"name":"Sprite68","order":7,"path":"sprites/Sprite68/Sprite68.yy",},
   ],
 }
