@@ -15,4 +15,3 @@ for (var i = 0; i < max_corazones; i++) {
         draw_sprite(Spr_vida3, -1, 60 * i + 64, 64);
     }
 }
-
