@@ -75,7 +75,7 @@ if (!is_dead) {
         
         if (image_index >= 2 && image_index <= 5 && place_meeting(x-1,y,Obj_Player) || place_meeting(x-1,y,Obj_Player) ) {
             if (!Danando) { // Evita múltiples golpes en el mismo frame
-                Obj_Player.vida -= 0.5; // Aplica daño al jugador
+                global.vida -= 0.5; // Aplica daño al jugador
 
                 // Empuja al jugador hacia atrás
                 var push_direction = point_direction(x, y, Obj_Player.x, Obj_Player.y);

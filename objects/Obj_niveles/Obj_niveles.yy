@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_vida",
+  "%Name":"Obj_niveles",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_vida",
+  "name":"Obj_niveles",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Cuadros",
+    "path":"folders/Objetos/Cuadros.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_vida1",
-    "path":"sprites/Spr_vida1/Spr_vida1.yy",
+    "name":"Spr_Dialogos",
+    "path":"sprites/Spr_Dialogos/Spr_Dialogos.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

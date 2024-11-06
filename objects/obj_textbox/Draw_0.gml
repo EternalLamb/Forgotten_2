@@ -164,10 +164,8 @@ if (speaker_sprite[page] != noone)
 	//draw the speaker
 	draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + portrait_x_offset[page], textbox_y, sprite_width/txtb_spr_w, sprite_height/txtb_spr_h, 0, c_white, 1);
 	draw_sprite_ext(sprite_index, image_index, _speaker_x, textbox_y, speaker_side[page], 1, 0, c_white, 1);
+	draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
 }
-
-//back of the textbox
-draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
 
 //draw the text 
  for (var c = 0; c < draw_char; c++)

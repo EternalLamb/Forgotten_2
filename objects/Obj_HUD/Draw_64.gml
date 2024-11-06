@@ -1,4 +1,4 @@
-var vida = Obj_Player.vida; // Asume que obj_player tiene una variable `vida`
+var vida = global.vida; // Asume que obj_player tiene una variable `vida`
 var max_corazones = 3; // Total de corazones en el HUD
 var vida_por_corazon = 1; // Cantidad de vida que representa cada corazón
 

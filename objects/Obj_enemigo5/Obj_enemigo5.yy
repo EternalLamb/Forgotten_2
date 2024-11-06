@@ -40,9 +40,6 @@
     "name":"Spr_enemigo5",
     "path":"sprites/Spr_enemigo5/Spr_enemigo5.yy",
   },
-  "spriteMaskId":{
-    "name":"Spr_enemigo5_attak",
-    "path":"sprites/Spr_enemigo5_attak/Spr_enemigo5_attak.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

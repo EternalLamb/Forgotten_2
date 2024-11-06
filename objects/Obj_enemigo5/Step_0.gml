@@ -18,7 +18,6 @@ if (!is_dead) {
         is_dead = true; // Marca al enemigo como muerto
         sprite_index = Spr_enemigo5_dead; 
         image_index = 0; 
-        image_speed = 0.5;
     }
 } else {
     
@@ -47,14 +46,14 @@ if (!is_dead) {
     }
 
    
-    var rango_ataque = 40;
+    var rango_ataque = 70;
     if (distance_to_object(Obj_Player) < rango_ataque) {
         // Cambia al sprite de ataque e inicia la animación si el jugador está en el rango
         if (!Atacando) { 
             Atacando = true;
             sprite_index = Spr_enemigo5_attak; 
-            image_index = 0; // Reinicia la animación de ataque
-			image_speed = 1;
+            image_index = 0; 
+			image_speed = 0.5;
            
         }
     } else {
@@ -73,9 +72,9 @@ if (!is_dead) {
  
     if (Atacando && global.Golpeando == false) {
         
-        if (image_index >= 5 && image_index <= 8 && place_meeting(x-1,y,Obj_Player) || place_meeting(x-1,y,Obj_Player) ) {
-            if (!Danando) { // Evita múltiples golpes en el mismo frame
-                Obj_Player.vida -= 0.5; // Aplica daño al jugador
+        if (image_index >= 6 && image_index <= 9 && place_meeting(x-1,y,Obj_Player) || place_meeting(x+1,y,Obj_Player) ) {
+            if (!Danando) {
+                global.vida -= 0.5; // Aplica daño al jugador
 
                 // Empuja al jugador hacia atrás
                 var push_direction = point_direction(x, y, Obj_Player.x, Obj_Player.y);

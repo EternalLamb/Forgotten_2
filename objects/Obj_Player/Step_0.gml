@@ -74,9 +74,10 @@ if (place_meeting(x, y, Obj_canjump))
 }
 #endregion
 
-#region Vida
-if (vida <= 0) {
-    room_restart(); // Reinicia el nivel actual
+#region vida
+if (global.vida <= 0) {
+	global.vida = 3;
+    room_restart();
 }
 #endregion
 
@@ -95,7 +96,7 @@ if (Can_Attack == true) {
    if (global.Golpeando == true)
 {
 	sprite_index = Spr_AttackSlash;	
-	mask_index = Spr_hitbox;
+	mask_index = Spr_AttackSlash;
 		if(image_index == 1)
 		{
 		global.Dano = true;	
