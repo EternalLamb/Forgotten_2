@@ -1,19 +1,13 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-HP -= 3;
-if (HP > 0) {
-    HP -= 1;
-    if (HP == 0) {
-        instance_destroy();
-    }
-}
+if (global.Dano == true) { //Si el player esta golpeando, este tendrá prioridad.
+    if (!is_dead) { 
+        health -= 1;
 
-//Empuje
-if (place_meeting(x-1,y,Obj_Player))
-{
-	x += 3;	
-}
-if (place_meeting(x+1,y,Obj_Player))
-{
-	x -= 3;	
-}
+        // Comprueba si el enemigo ha muerto
+        if (health <= 0) {
+            is_dead = true;
+            sprite_index = Spr_enemigo5_dead; 
+            image_index = 0; 
+            image_speed = 0.5; 
+        }
+    }
+} 

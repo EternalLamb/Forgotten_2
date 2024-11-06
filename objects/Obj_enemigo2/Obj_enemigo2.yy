@@ -35,6 +35,9 @@
     "name":"Spr_enemigo2",
     "path":"sprites/Spr_enemigo2/Spr_enemigo2.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Spr_enemigo2_attack",
+    "path":"sprites/Spr_enemigo2_attack/Spr_enemigo2_attack.yy",
+  },
   "visible":true,
 }

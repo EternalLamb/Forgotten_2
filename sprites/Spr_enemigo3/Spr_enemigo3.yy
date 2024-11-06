@@ -23,7 +23,7 @@
   ],
   "name":"Spr_enemigo3",
   "nineSlice":null,
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Murcielago",
     "path":"folders/Sprites/Enemigos/Murcielago.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":0,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

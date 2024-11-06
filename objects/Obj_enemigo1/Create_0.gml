@@ -1,8 +1,8 @@
-//puntitos de vida
+//puntitos de vida y daño
 health = 2;
 is_dead = false;
 target = Obj_puntoA;
-distance_threshold = 5;
+dmg = 1.5;
 
 // Variables para controlar el movimiento
 velocidad = 2;

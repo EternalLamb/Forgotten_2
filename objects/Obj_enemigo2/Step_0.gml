@@ -48,7 +48,7 @@ if (!is_dead) {
     }
 
     // Verificar si el jugador está en el rango de ataque usando distancia
-    var rango_ataque = 30; // Ajusta el rango de ataque según sea necesario
+    var rango_ataque = 10; // Ajusta el rango de ataque según sea necesario
     if (distance_to_object(Obj_Player) < rango_ataque) {
         // Cambia al sprite de ataque e inicia la animación si el jugador está en el rango
         if (!Atacando) { 
