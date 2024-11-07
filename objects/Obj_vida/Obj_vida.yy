@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_vida1",
-    "path":"sprites/Spr_vida1/Spr_vida1.yy",
+    "name":"Spr_Spirit",
+    "path":"sprites/Spr_Spirit/Spr_Spirit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

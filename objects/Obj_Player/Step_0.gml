@@ -141,3 +141,98 @@ if (Can_Attack == true) {
     }
 }
 #endregion
+
+#region DAÑO ENEMIGOS Y EMPUJE
+#region RINO
+var enemy = instance_place(x, y + 3, Obj_enemigo1);
+if (enemy) {
+    if (enemy.y > y) {
+        global.vida -= 1.5; 
+        y -= 90; 
+		vspeed = 0;
+		
+    }
+}
+enemy = instance_place(x, y - 1, Obj_enemigo1);
+if (enemy) {
+    if (enemy.y < y) {
+        global.vida -= 1.5;
+        y += 60; 
+		vspeed = 0;
+    }
+}
+#endregion
+#region ARBOL
+var enemy1 = instance_place(x, y + 3, Obj_enemigo2);
+if (enemy1) {
+    if (enemy1.y > y) {
+        global.vida -= 1; 
+        y -= 60; 
+		vspeed = 0;
+    }
+}
+enemy1 = instance_place(x, y - 1, Obj_enemigo2);
+if (enemy1) {
+    if (enemy1.y < y) {
+        global.vida -= 1;
+        y += 60; 
+		vspeed = 0;
+    }
+}
+#endregion
+#region MURCIELAGO
+var enemy2 = instance_place(x, y + 3, Obj_enemigo3);
+if (enemy2) {
+    if (enemy2.y > y) {
+        global.vida -= 0.5; 
+        y -= 60; 
+		vspeed = 0;
+    }
+}
+enem2y = instance_place(x, y - 1, Obj_enemigo3);
+if (enemy2) {
+    if (enemy2.y < y) {
+        global.vida -= 0.5;
+        y += 60; 
+		vspeed = 0;
+    }
+}
+#endregion
+#region ARAÑA
+var enemy3 = instance_place(x, y + 1, Obj_enemigo4);
+if (enemy3) {
+    if (enemy3.y > y) {
+        global.vida -= 0.5; 
+        y -= 60; 
+		vspeed = 0;
+    }
+}
+enemy3 = instance_place(x, y - 1, Obj_enemigo4);
+if (enemy3) {
+    if (enemy3.y < y) {
+        global.vida -= 0.5;
+        y += 60;  
+		vspeed = 0; 
+    }
+}
+#endregion
+#region	SLIME
+var enemy_5 = instance_place(x, y + 3, Obj_enemigo5);
+if (enemy_5) {
+    if (enemy_5.y > y) {
+        global.vida -= 0.5; 
+        y -= 60; 
+		vspeed = 0;
+		
+    }
+}
+enemy_5 = instance_place(x, y - 1, Obj_enemigo5);
+if (enemy_5) {
+    if (enemy_5.y < y) {
+        global.vida -= 0.5;
+        y += 60; 
+		vspeed = 0;
+    }
+}
+#endregion
+#endregion

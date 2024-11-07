@@ -131,7 +131,6 @@
     {"name":"Spr_Grass_1","order":12,"path":"sprites/Spr_Grass_1/Spr_Grass_1.yy",},
     {"name":"Spr_Grass","order":1,"path":"sprites/Spr_Grass/Spr_Grass.yy",},
     {"name":"Spr_Grass45","order":9,"path":"sprites/Spr_Grass45/Spr_Grass45.yy",},
-    {"name":"Spr_heal","order":3,"path":"sprites/Spr_heal/Spr_heal.yy",},
     {"name":"Spr_Helmet","order":1,"path":"sprites/Spr_Helmet/Spr_Helmet.yy",},
     {"name":"Spr_hitbox","order":7,"path":"sprites/Spr_hitbox/Spr_hitbox.yy",},
     {"name":"Spr_Jump","order":1,"path":"sprites/Spr_Jump/Spr_Jump.yy",},
@@ -156,5 +155,6 @@
     {"name":"Spr_vida2","order":1,"path":"sprites/Spr_vida2/Spr_vida2.yy",},
     {"name":"Spr_Walk","order":3,"path":"sprites/Spr_Walk/Spr_Walk.yy",},
     {"name":"Spr_Web","order":11,"path":"sprites/Spr_Web/Spr_Web.yy",},
+    {"name":"Spr_Spirit","order":5,"path":"sprites/Spr_Spirit/Spr_Spirit.yy",},
   ],
 }

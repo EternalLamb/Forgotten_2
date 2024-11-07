@@ -3,7 +3,7 @@ function scr_game_text(_text_id){
 switch(_text_id)
 {	
 	case "Level_1":
-	scr_text("Hmg.... donde....", "Player");
+	scr_text("Hmg.... donde....ññ ÑÑ ´áéíóúÁÉÍÓÚS", "Player");
 	scr_text("¡Hola! Por fin despiertas, te eh estado cuidando como por..... mucho tiempo, estabas muy herido", "Shadow", -1);
 	scr_text("Quien eres?", "Player");
 	scr_text("Soy... uhm... no lo se, olvide mi nombre", "Shadow", -1);
@@ -89,7 +89,7 @@ switch(_text_id)
 	scr_text("Ya sabes esa cosa de madera como se llama....", "Shadow", -1);
 	scr_text("Un escudo?", "Player");
 	scr_text("Eso! un escudo, pero esta roto...", "Shadow", -1);
-	scr_text("Que pena... no ubiera sido util...", "Player");
+	scr_text("Que pena... nos ubiera sido util...", "Player");
 	scr_text("Parece que ya le fue util a alguien mas", "Shadow", -1);
 	scr_text("Vaya no la habia visto, se parece mucho a.... ", "Player");
 	scr_text("Uhm?", "Shadow", -1);
@@ -118,7 +118,7 @@ switch(_text_id)
 	scr_text("Dice como podemos cocinar murcielagos deliciosos?", "Shadow", -1);
 	scr_text("Recuerdame darte comida cuando vuelva a casa jaja", "Player");
 	scr_text("jeje lo siento, que dice la pagina?", "Shadow", -1);
-	scr_text("Dice 'Dia 5, el bosque cada vez se hace mas denso y apenas puedo ver, debo cumplir con mision de derrotar a la bestia, solo asi la paz volverá '", "Player");
+	scr_text("Dice 'Dia 5, el bosque cada vez se hace mas denso y apenas puedo ver, debo cumplir con la mision de derrotar a la bestia, solo asi la paz volverá '", "Player");
 	scr_text("La bestia? Ese aventurero es uno de los muchos que han intentado derrotarla...", "Shadow", -1);
 	scr_text("La bestia?", "Player");
 	scr_text("Si, la bestia es.... una bestia *risita* esta con su poder oscuro obliga a los habitantes del bosque a proteger su guarida, corrompiendo sus formas y mentes", "Shadow", -1);
@@ -127,7 +127,7 @@ switch(_text_id)
 	scr_text("Contigo a mi lado se que podre hacerlo", "Player");
 	scr_text("Que miedito", "Shadow", -1);
 	scr_text("Tranquilo, te protegere tal y como tu me protegiste a mi cuando desperte", "Player");
-	scr_text("Quiza en unos añitos mas....", "Shadow", -1);
+	scr_text("Quiza en unos años mas....", "Shadow", -1);
 	scr_text("Claro que si orejitas, aun debo hacerme mas fuerte", "Player");
 	break;
 	

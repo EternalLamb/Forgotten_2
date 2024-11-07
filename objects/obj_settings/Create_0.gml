@@ -1,1 +1,1 @@
-global.font_main = font_add_sprite(spr_font_main, 32, true, 1);
+global.font_main = font_add_sprite_ext(spr_font_main, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnñopqrstuvwxyzáéíóú0123456789¡!¿?()\"'.,-/ü|", true, 0);

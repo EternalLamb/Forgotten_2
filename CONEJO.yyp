@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"CONEJO",
   "resources":[
@@ -170,7 +170,6 @@
     {"id":{"name":"Spr_Grass_1","path":"sprites/Spr_Grass_1/Spr_Grass_1.yy",},},
     {"id":{"name":"Spr_Grass","path":"sprites/Spr_Grass/Spr_Grass.yy",},},
     {"id":{"name":"Spr_Grass45","path":"sprites/Spr_Grass45/Spr_Grass45.yy",},},
-    {"id":{"name":"Spr_heal","path":"sprites/Spr_heal/Spr_heal.yy",},},
     {"id":{"name":"Spr_Helmet","path":"sprites/Spr_Helmet/Spr_Helmet.yy",},},
     {"id":{"name":"Spr_hitbox","path":"sprites/Spr_hitbox/Spr_hitbox.yy",},},
     {"id":{"name":"Spr_Jugar","path":"sprites/Spr_Jugar/Spr_Jugar.yy",},},
@@ -200,6 +199,7 @@
     {"id":{"name":"Spr_Walk","path":"sprites/Spr_Walk/Spr_Walk.yy",},},
     {"id":{"name":"Spr_Web","path":"sprites/Spr_Web/Spr_Web.yy",},},
     {"id":{"name":"Spri_Can_Jump","path":"sprites/Spri_Can_Jump/Spri_Can_Jump.yy",},},
+    {"id":{"name":"Spr_Spirit","path":"sprites/Spr_Spirit/Spr_Spirit.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
