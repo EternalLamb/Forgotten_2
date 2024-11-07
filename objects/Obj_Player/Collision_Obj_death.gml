@@ -1,3 +1,4 @@
 
 global.vida -= 1;
-room_restart();
+x = 64;	
+y = 672;

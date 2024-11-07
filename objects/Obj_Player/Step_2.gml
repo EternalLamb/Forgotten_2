@@ -10,7 +10,8 @@ var enemy = instance_place(x, y + 3, Obj_enemigo1);
 if (enemy) {
     if (enemy.y > y) {
         global.vida -= 1.5; 
-        y -= 60; 
+        y -= 90; 
+		vspeed = 0;
 		
     }
 }
@@ -19,6 +20,7 @@ if (enemy) {
     if (enemy.y < y) {
         global.vida -= 1.5;
         y += 60; 
+		vspeed = 0;
     }
 }
 #endregion
@@ -28,6 +30,7 @@ if (enemy1) {
     if (enemy1.y > y) {
         global.vida -= 1; 
         y -= 60; 
+		vspeed = 0;
     }
 }
 enemy1 = instance_place(x, y - 1, Obj_enemigo2);
@@ -35,6 +38,7 @@ if (enemy1) {
     if (enemy1.y < y) {
         global.vida -= 1;
         y += 60; 
+		vspeed = 0;
     }
 }
 #endregion
@@ -44,6 +48,7 @@ if (enemy2) {
     if (enemy2.y > y) {
         global.vida -= 0.5; 
         y -= 60; 
+		vspeed = 0;
     }
 }
 enem2y = instance_place(x, y - 1, Obj_enemigo3);
@@ -51,6 +56,7 @@ if (enemy2) {
     if (enemy2.y < y) {
         global.vida -= 0.5;
         y += 60; 
+		vspeed = 0;
     }
 }
 #endregion
@@ -60,13 +66,15 @@ if (enemy3) {
     if (enemy3.y > y) {
         global.vida -= 0.5; 
         y -= 60; 
+		vspeed = 0;
     }
 }
 enemy3 = instance_place(x, y - 1, Obj_enemigo4);
 if (enemy3) {
     if (enemy3.y < y) {
         global.vida -= 0.5;
-        y += 60; 
+        y += 60;  
+		vspeed = 0; 
     }
 }
 #endregion

@@ -74,10 +74,36 @@ if (place_meeting(x, y, Obj_canjump))
 }
 #endregion
 
-#region vida
+#region VIDA Y RESPAWN
 if (global.vida <= 0) {
 	global.vida = 3;
-    room_restart();
+		x = 64;	
+		y = 672;
+	if (room == Room3)
+	{
+		x = 64;
+		y =576;
+	}
+	if (room == Room5)
+	{
+		x = 96;
+		y = 736;
+	}
+	if (room == Room6)
+	{
+		x = 64;
+		y = 416;
+	}
+	if (room == Room7)
+	{
+		x = 64;
+		y = 512;
+	}
+	if (room == Room8)
+	{
+		x = 64;
+		y = 640;
+	}
 }
 #endregion
 

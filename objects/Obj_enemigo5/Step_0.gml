@@ -53,7 +53,6 @@ if (!is_dead) {
             Atacando = true;
             sprite_index = Spr_enemigo5_attak; 
             image_index = 0; 
-			image_speed = 0.5;
            
         }
     } else {
@@ -72,7 +71,7 @@ if (!is_dead) {
  
     if (Atacando && global.Golpeando == false) {
         
-        if (image_index >= 6 && image_index <= 9 && place_meeting(x-1,y,Obj_Player) || place_meeting(x+1,y,Obj_Player) ) {
+        if (image_index >= 2 && image_index <= 9 && place_meeting(x-1,y,Obj_Player) || place_meeting(x+1,y,Obj_Player) ) {
             if (!Danando) {
                 global.vida -= 0.5; // Aplica daño al jugador
 

@@ -8,8 +8,8 @@
   "name":"Obj_vida",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Obj importantes",
+    "path":"folders/Objetos/Obj importantes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

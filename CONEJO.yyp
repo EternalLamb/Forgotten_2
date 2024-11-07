@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"CONEJO",
   "resources":[
@@ -79,6 +79,7 @@
     {"id":{"name":"Obj_Liana","path":"objects/Obj_Liana/Obj_Liana.yy",},},
     {"id":{"name":"Obj_lol","path":"objects/Obj_lol/Obj_lol.yy",},},
     {"id":{"name":"Obj_lol3","path":"objects/Obj_lol3/Obj_lol3.yy",},},
+    {"id":{"name":"Obj_niveles","path":"objects/Obj_niveles/Obj_niveles.yy",},},
     {"id":{"name":"Obj_Page","path":"objects/Obj_Page/Obj_Page.yy",},},
     {"id":{"name":"Obj_Play","path":"objects/Obj_Play/Obj_Play.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
@@ -99,7 +100,6 @@
     {"id":{"name":"Object31","path":"objects/Object31/Object31.yy",},},
     {"id":{"name":"Object32","path":"objects/Object32/Object32.yy",},},
     {"id":{"name":"Object38","path":"objects/Object38/Object38.yy",},},
-    {"id":{"name":"Obj_niveles","path":"objects/Obj_niveles/Obj_niveles.yy",},},
     {"id":{"name":"Objlol2","path":"objects/Objlol2/Objlol2.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
@@ -170,6 +170,7 @@
     {"id":{"name":"Spr_Grass_1","path":"sprites/Spr_Grass_1/Spr_Grass_1.yy",},},
     {"id":{"name":"Spr_Grass","path":"sprites/Spr_Grass/Spr_Grass.yy",},},
     {"id":{"name":"Spr_Grass45","path":"sprites/Spr_Grass45/Spr_Grass45.yy",},},
+    {"id":{"name":"Spr_heal","path":"sprites/Spr_heal/Spr_heal.yy",},},
     {"id":{"name":"Spr_Helmet","path":"sprites/Spr_Helmet/Spr_Helmet.yy",},},
     {"id":{"name":"Spr_hitbox","path":"sprites/Spr_hitbox/Spr_hitbox.yy",},},
     {"id":{"name":"Spr_Jugar","path":"sprites/Spr_Jugar/Spr_Jugar.yy",},},

@@ -17,7 +17,7 @@ switch(_text_id)
 	case "Level_2":
 	scr_text("Asi que... te aterran las armas no? Porque?", "Player");
 	scr_text("N-no lo se, tengo un recuerdo muy malo con armas y no me gusta mucho", "Shadow", -1);
-	scr_text("Vaya... eso suena muy mal, tranquilo  Orejitas, no dejare que ninguna arma te dañe", "Player");
+	scr_text("Vaya... eso suena muy mal, tranquilo  Orejitas, no dejare que ninguna arma te lastime", "Player");
 	scr_text("Muchas gracias amigo, lo aprecio mucho", "Shadow", -1);
 	break;
 	
@@ -26,7 +26,7 @@ switch(_text_id)
 	scr_text("Si?", "Shadow", -1);
 	scr_text("Creo que recuerdo algo, recuerdo que era un guerrero y esta espada es mia", "Player");
 	scr_text("Increible! sabia que podrias recordar algo, si seguimos avanzando quiza sepamos quien eras!", "Shadow", -1);
-	scr_text("Tienes razon, continuemos caminando?", "Player");
+	scr_text("Tienes razon, continuemos caminando", "Player");
 	break;
 	
 	
@@ -44,11 +44,11 @@ switch(_text_id)
 	scr_text("La verdad si.. un poco", "Player");
 	scr_text("Recuerda que puedes recoger corazones que estan por ahi", "Shadow", -1);
 	scr_text("Corazones?", "Player");
-	scr_text("Sip, segun los habitantes del bosque los corazones son el alma de rota de los caidos y esos pedazos al tomarlos te llenan de su energia para salvarlos", "Shadow", -1);
+	scr_text("Sip, segun los habitantes del bosque los pequeños espiritus son el alma quebrada del bosque dandote su energia para ayudarla", "Shadow", -1);
 	scr_text("Sera verdad?", "Player");
 	scr_text("Yo creo que si, quiza yo soy una de esas almas y te esta ayudando", "Shadow", -1);
 	scr_text("Puede ser.... creo que eres mas como un guia", "Player");
-	scr_text("Si tu lo dices, un guia espiritual sere", "Shadow", -1);
+	scr_text("Jeje entonces voy a ser tu guia y te llevare a casa!", "Shadow", -1);
 	scr_text("Jaja sigamos avanzando Orejitas", "Player");
 	break;
 	
