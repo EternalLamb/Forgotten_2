@@ -16,7 +16,14 @@ else
 	Grounded = false
 	audio_stop_sound(Snd_Step);
 }
-
+if (room == Menu && !audio_is_playing(envlvl3))
+{
+	audio_play_sound(envlvl3, 10, true)	
+}
+if (room != Menu)
+{
+	audio_stop_sound(envlvl3);	
+}
 
 #region MOVIMIENTO
 var hor  = keyboard_check(ord("D")) - keyboard_check(ord("A"));
@@ -30,7 +37,7 @@ if (hor != 0)
 	
 	if (!audio_is_playing(Snd_Step) && Grounded == true)
 	{
-		audio_play_sound(Snd_Step, 1, false, 1, 1 , 0.6);
+		audio_play_sound(Snd_Step, 20, false, 1, 1 , 0.6);
 	}
 	image_xscale = hor;
 	sprite_index = Spr_Walk;
