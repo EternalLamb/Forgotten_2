@@ -34,7 +34,6 @@
     {"name":"Sombras","order":3,"path":"folders/Sprites/Sombras.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj__transition_crontoller","order":7,"path":"objects/obj__transition_crontoller/obj__transition_crontoller.yy",},
     {"name":"Obj_Block","order":4,"path":"objects/Obj_Block/Obj_Block.yy",},
     {"name":"Obj_bush","order":6,"path":"objects/Obj_bush/Obj_bush.yy",},
     {"name":"Obj_cave_1","order":4,"path":"objects/Obj_cave_1/Obj_cave_1.yy",},
@@ -69,6 +68,7 @@
     {"name":"Obj_stick","order":3,"path":"objects/Obj_stick/Obj_stick.yy",},
     {"name":"Obj_sword","order":2,"path":"objects/Obj_sword/Obj_sword.yy",},
     {"name":"obj_textbox","order":3,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"obj_transition_controller","order":7,"path":"objects/obj_transition_controller/obj_transition_controller.yy",},
     {"name":"Obj_tree_purple","order":12,"path":"objects/Obj_tree_purple/Obj_tree_purple.yy",},
     {"name":"Obj_vida","order":5,"path":"objects/Obj_vida/Obj_vida.yy",},
     {"name":"Obj_web","order":7,"path":"objects/Obj_web/Obj_web.yy",},

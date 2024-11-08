@@ -55,7 +55,7 @@
   },
   "name":"CONEJO",
   "resources":[
-    {"id":{"name":"obj__transition_crontoller","path":"objects/obj__transition_crontoller/obj__transition_crontoller.yy",},},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},},
     {"id":{"name":"Obj_Book","path":"objects/Obj_Book/Obj_Book.yy",},},
     {"id":{"name":"Obj_bush","path":"objects/Obj_bush/Obj_bush.yy",},},
@@ -94,6 +94,7 @@
     {"id":{"name":"Obj_stick","path":"objects/Obj_stick/Obj_stick.yy",},},
     {"id":{"name":"Obj_sword","path":"objects/Obj_sword/Obj_sword.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
+    {"id":{"name":"obj_transition_controller","path":"objects/obj_transition_controller/obj_transition_controller.yy",},},
     {"id":{"name":"Obj_tree_purple","path":"objects/Obj_tree_purple/Obj_tree_purple.yy",},},
     {"id":{"name":"Obj_tree","path":"objects/Obj_tree/Obj_tree.yy",},},
     {"id":{"name":"Obj_vida","path":"objects/Obj_vida/Obj_vida.yy",},},
@@ -217,6 +218,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -226,7 +228,6 @@
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"testing_room","path":"rooms/testing_room/testing_room.yy",},},
-    {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
