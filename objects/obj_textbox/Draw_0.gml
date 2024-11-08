@@ -1,4 +1,4 @@
-accept_key = keyboard_check_pressed(vk_enter);
+accept_key = mouse_check_button_pressed(mb_left);
 
 textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y = camera_get_view_y(view_camera[0]) + 200;

@@ -5,9 +5,20 @@ key_jump = keyboard_check_pressed(vk_space);
 keyAttack = mouse_check_button_pressed(mb_left);
 Liana = false;
 indice_frame = sprite_index;
+Grounded = false;
+
+if (instance_place(x, y+1, Obj_col))
+{
+	Grounded = true;	
+}
+else
+{
+	Grounded = false
+	audio_stop_sound(Snd_Step);
+}
 
 
-#region MOVIEMIENTO
+#region MOVIMIENTO
 var hor  = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 if (hor != 0)
@@ -17,11 +28,16 @@ if (hor != 0)
 	x += hor * 3;	
 	}
 	
+	if (!audio_is_playing(Snd_Step) && Grounded == true)
+	{
+		audio_play_sound(Snd_Step, 1, false, 1, 1 , 0.6);
+	}
 	image_xscale = hor;
 	sprite_index = Spr_Walk;
 }
 else
 {
+	audio_stop_sound(Snd_Step);
 	sprite_index = Spr_Player;	
 }
 
@@ -84,22 +100,22 @@ if (global.vida <= 0) {
 		x = 64;
 		y =576;
 	}
-	if (room == Room5)
+	if (room == Room4)
 	{
 		x = 96;
 		y = 736;
 	}
-	if (room == Room6)
+	if (room == Room5)
 	{
 		x = 64;
 		y = 416;
 	}
-	if (room == Room7)
+	if (room == Room6)
 	{
 		x = 64;
 		y = 512;
 	}
-	if (room == Room8)
+	if (room == Room7)
 	{
 		x = 64;
 		y = 640;
@@ -108,11 +124,7 @@ if (global.vida <= 0) {
 #endregion
 
 #region COMBATE
-if (room != Room1)
-{
-	Can_Attack = true;	
-}
-if (Can_Attack == true) {
+if (global.Can_Attack == true) {
     if (keyAttack == true && !global.Golpeando) {  // Solo inicia el ataque si no estamos golpeando
         global.Golpeando = true;
         image_index = 0;
@@ -121,15 +133,19 @@ if (Can_Attack == true) {
 
    if (global.Golpeando == true)
 {
-	sprite_index = Spr_AttackSlash;	
-	mask_index = Spr_AttackSlash;
+			sprite_index = Spr_AttackSlash;	
+			mask_index = Spr_AttackSlash;
+			if (!audio_is_playing(Snd_Attack) && image_index == 3)
+			{
+				audio_play_sound(Snd_Attack, 10, false);	
+			}
 		if(image_index == 1)
 		{
-		global.Dano = true;	
+			global.Dano = true;	
 		}
 		else
 		{
-		global.Dano = false;	
+			global.Dano = false;	
 		}
         // Permitir que la animación se reproduzca hasta el final
         if (image_index = 3) {

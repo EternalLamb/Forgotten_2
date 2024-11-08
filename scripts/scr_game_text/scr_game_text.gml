@@ -3,19 +3,20 @@ function scr_game_text(_text_id){
 switch(_text_id)
 {	
 	case "Level_1":
-	scr_text("Hmg.... donde....ññ ÑÑ ´áéíóúÁÉÍÓÚS", "Player");
+	scr_text("Hmg.... donde....", "Player");
 	scr_text("¡Hola! Por fin despiertas, te eh estado cuidando como por..... mucho tiempo, estabas muy herido", "Shadow", -1);
-	scr_text("Quien eres?", "Player");
-	scr_text("Soy... uhm... no lo se, olvide mi nombre", "Shadow", -1);
-	scr_text("Ah si?.. bueno estamos igual, no recuerdo mi nombre y tampoco quien soy, solo quiero ir a casa", "Player");
-	scr_text("Puedo ir contigo? Conozco un camino!", "Shadow", -1);
+	scr_text("¿Quien eres?", "Player");
+	scr_text("Soy... uhm... no lo se, olvidé mi nombre", "Shadow", -1);
+	scr_text("Ah sí?.. bueno estamos igual, no recuerdo mi nombre y tampoco se quien soy, solo se quiero ir a casa", "Player");
+	scr_text("¿Puedo ir contigo? ¡Conozco un camino!", "Shadow", -1);
 	scr_text("Esta bien... me ayudas a levantarme?", "Player");
 	scr_text("Claro, recuerda que puedes moverte con [A] para la izquierda y [D] para la derecha y saltar con [Espacio]", "Shadow", -1);
+	scr_text("Si ves algun objeto que llame tu atencion recuerda que puedes pulsar [Click Izquierdo] para interactuar con el ¡Clickea en todas partes!", "Shadow", -1);
 	break;
 	
 	
 	case "Level_2":
-	scr_text("Asi que... te aterran las armas no? Porque?", "Player");
+	scr_text("Asi que... te aterran las armas no? Porqué?", "Player");
 	scr_text("N-no lo se, tengo un recuerdo muy malo con armas y no me gusta mucho", "Shadow", -1);
 	scr_text("Vaya... eso suena muy mal, tranquilo  Orejitas, no dejare que ninguna arma te lastime", "Player");
 	scr_text("Muchas gracias amigo, lo aprecio mucho", "Shadow", -1);
@@ -23,32 +24,32 @@ switch(_text_id)
 	
 	case "Level_3":
 	scr_text("Oye Orejitas", "Player");
-	scr_text("Si?", "Shadow", -1);
-	scr_text("Creo que recuerdo algo, recuerdo que era un guerrero y esta espada es mia", "Player");
-	scr_text("Increible! sabia que podrias recordar algo, si seguimos avanzando quiza sepamos quien eras!", "Shadow", -1);
+	scr_text("¿Si?", "Shadow", -1);
+	scr_text("Creo que recuerdo algo, recuerdo que era un guerrero y esta espada es mía", "Player");
+	scr_text("¡Increíble! sabia que podrias recordar algo, ¡Si seguimos avanzando quiza sepamos quien eras!", "Shadow", -1);
 	scr_text("Tienes razon, continuemos caminando", "Player");
 	break;
 	
 	
 	case "Level_4":
-	scr_text("Oh mira! son lianas", "Shadow", -1);
-	scr_text("Te quieres columpiar? Suenas muy emocinado", "Player");
-	scr_text("Jeje si, las puedes usar para llegar a lugares altos o secciones de dificil acceso", "Shadow", -1);
+	scr_text("¡Oh mira! son lianas", "Shadow", -1);
+	scr_text("¿Te quieres columpiar? Suenas muy emocinado", "Player");
+	scr_text("Jeje si, las puedes usar para llegar a lugares altos o secciones de difícil acceso", "Shadow", -1);
 	scr_text("Puedes apretar [W] para sostenerte en la liana y pulsar [Espacio] para saltar, pero recuerda soltar la liana para saltar", "Shadow", -1);
 	scr_text("Entendido, gracias Orejita", "Player");
 	break;
 	
 	case "Level_5":
-	scr_text("Este bosque es muy largo... y por alguna razon todos quieren lastimarme", "Player");
+	scr_text("Este bosque es muy largo... y por alguna razón todos quieren lastimarme", "Player");
 	scr_text("Suenas cansado...", "Shadow", -1);
 	scr_text("La verdad si.. un poco", "Player");
-	scr_text("Recuerda que puedes recoger corazones que estan por ahi", "Shadow", -1);
-	scr_text("Corazones?", "Player");
-	scr_text("Sip, segun los habitantes del bosque los pequeños espiritus son el alma quebrada del bosque dandote su energia para ayudarla", "Shadow", -1);
-	scr_text("Sera verdad?", "Player");
-	scr_text("Yo creo que si, quiza yo soy una de esas almas y te esta ayudando", "Shadow", -1);
-	scr_text("Puede ser.... creo que eres mas como un guia", "Player");
-	scr_text("Jeje entonces voy a ser tu guia y te llevare a casa!", "Shadow", -1);
+	scr_text("Si te sientes muy cansado puedes recolectar los espiritus que estan por ahí escondidos", "Shadow", -1);
+	scr_text("Espiritus?", "Player");
+	scr_text("Sip, segun los habitantes del bosque los pequeños espiritus son el alma quebrada del bosque dandote su energía para ayudarla, pero son algo tímidas", "Shadow", -1);
+	scr_text("Será verdad?", "Player");
+	scr_text("Yo creo que si, quizá yo soy una de esas almas y te esta ayudando", "Shadow", -1);
+	scr_text("Puede ser.... creo que eres mas como un guía", "Player");
+	scr_text("Jeje entonces ¡Voy a ser tu guía y te llevare a casa!", "Shadow", -1);
 	scr_text("Jaja sigamos avanzando Orejitas", "Player");
 	break;
 	

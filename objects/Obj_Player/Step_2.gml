@@ -7,6 +7,9 @@ if (vspeed > 0) {
     sprite_index = Spr_Fall;
     var ground = collision_rectangle(x - 1, y, x + 1, y + vspeed, Obj_col, false, false);
     if (ground) {
+		audio_play_sound(Snd_Grass, 1, false);
+		
+		
         y = ground.y;
         vspeed = 0;
         gravity = 0;

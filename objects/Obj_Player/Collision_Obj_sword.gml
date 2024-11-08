@@ -1,3 +1,3 @@
 /// @description Inserte aquí la descripción
-Can_Attack = true;
+global.Can_Attack = true;
 instance_destroy(other);
