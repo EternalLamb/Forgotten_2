@@ -55,10 +55,20 @@ switch(_text_id)
 	
 	
 	case "Level_6":
+	scr_text("¿Y esto?", "Player");
+	scr_text("Es niebla, significa que nos estamos acercando al corazon del bosque", "Shadow", -1);
+	scr_text("¿Al corazón? Dijiste que ibamos a salir ", "Player");
+	scr_text("Pues si, vamos a salir, pero no hay otra salida de este bosque, es mágico, ademas estas recuperando tus recuerdos de a poco ¿o me equivoco?", "Shadow", -1);
+	scr_text("Hm.... tienes razón orejitas, ya recuerdo que era un guerrero y que esos objetos de antes eran míos", "Player");
+	scr_text("¿Ya ves? ¡No te rindas y sigamos avanzando! ", "Shadow", -1);
 	break;
 	
 	
 	case "Level_7":
+	scr_text("¿Ya falta poco?", "Player");
+	scr_text("Sip, falta poco para llegar al corazon del bosque, luego de eso es un tranquilo camino hacia la salida", "Shadow", -1);
+	scr_text("Genial, gracias por todo Orejitas", "Player");
+	scr_text("¡No hay de que amigo!", "Shadow", -1);
 	break;
 	
 	
@@ -133,6 +143,11 @@ switch(_text_id)
 	break;
 	
 	case "Book":
+	scr_text("Oh mira es un recolectador de palabras", "Shadow", -1);
+	scr_text("Jaja se llama libro Orejitas", "Player");
+	scr_text("Aa... cierto L-i-b-r-o", "Shadow", -1);
+	scr_text("Hmp... le faltan algunas paginas... ", "Player");
+	scr_text("Quizá esten por aqui", "Shadow", -1);
 	break;
 }
 

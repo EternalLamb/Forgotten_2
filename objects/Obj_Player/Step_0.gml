@@ -6,7 +6,10 @@ keyAttack = mouse_check_button_pressed(mb_left);
 Liana = false;
 indice_frame = sprite_index;
 Grounded = false;
-
+if (room != Room1)
+{
+	global.Can_Attack = true;	
+}
 if (instance_place(x, y+1, Obj_col))
 {
 	Grounded = true;	
