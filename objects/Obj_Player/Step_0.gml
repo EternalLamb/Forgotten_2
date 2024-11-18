@@ -48,6 +48,7 @@ else
 		if (place_free(x + hor * 3,y))
 		{
 		x += hor * 3;	
+		global.Golpeando = false;
 		}
 	
 		if (!audio_is_playing(Snd_Step) && Grounded == true)
