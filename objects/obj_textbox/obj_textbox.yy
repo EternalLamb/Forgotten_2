@@ -12,7 +12,10 @@
     "name":"Dialog System",
     "path":"folders/Dialog System.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Pause",
+    "path":"objects/Obj_Pause/Obj_Pause.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

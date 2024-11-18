@@ -104,6 +104,7 @@
     {"id":{"name":"Object31","path":"objects/Object31/Object31.yy",},},
     {"id":{"name":"Object32","path":"objects/Object32/Object32.yy",},},
     {"id":{"name":"Object38","path":"objects/Object38/Object38.yy",},},
+    {"id":{"name":"Obj_Pause","path":"objects/Obj_Pause/Obj_Pause.yy",},},
     {"id":{"name":"Objlol2","path":"objects/Objlol2/Objlol2.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},

@@ -5,7 +5,11 @@ key_jump = keyboard_check_pressed(vk_space);
 keyAttack = mouse_check_button_pressed(mb_left);
 Liana = false;
 indice_frame = sprite_index;
+dialogo = false;
 Grounded = false;
+
+
+
 if (room != Room1)
 {
 	global.Can_Attack = true;	
@@ -29,31 +33,41 @@ if (room != Menu)
 }
 
 #region MOVIMIENTO
-var hor  = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
-if (hor != 0)
+if (instance_exists(Obj_Pause))
 {
-	if (place_free(x + hor * 3,y))
-	{
-	x += hor * 3;	
-	}
-	
-	if (!audio_is_playing(Snd_Step) && Grounded == true)
-	{
-		audio_play_sound(Snd_Step, 20, false, 1, 1 , 0.6);
-	}
-	image_xscale = hor;
-	sprite_index = Spr_Walk;
+	gravity = 0;
+	vspeed = 0;
 }
 else
 {
-	audio_stop_sound(Snd_Step);
-	sprite_index = Spr_Player;	
-}
+	var hor  = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
-if (collision_rectangle(x-8,y,x+1,y+1,Obj_col,false,false) && key_jump == true)
-{
-	vspeed = -8;	
+	if (hor != 0)
+	{
+		if (place_free(x + hor * 3,y))
+		{
+		x += hor * 3;	
+		}
+	
+		if (!audio_is_playing(Snd_Step) && Grounded == true)
+		{
+			audio_play_sound(Snd_Step, 20, false, 1, 1 , 0.6);
+		}
+		image_xscale = hor;
+		sprite_index = Spr_Walk;
+	}
+	else
+	{
+		audio_stop_sound(Snd_Step);
+		sprite_index = Spr_Player;	
+	}
+
+	if (collision_rectangle(x-8,y,x+1,y+1,Obj_col,false,false) && key_jump == true)
+	{
+		vspeed = -8;	
+	}
+	
 }
 #endregion
 
@@ -165,6 +179,11 @@ if (global.Can_Attack == true) {
             image_speed = 1;  // Restaurar la velocidad de la animación normal
         }
     }
+	if (global.Golpeando == false)
+	{
+		mask_index = Spr_Player;
+		sprite_index = Spr_Player;	
+	}
 }
 #endregion
 

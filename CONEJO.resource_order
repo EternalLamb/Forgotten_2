@@ -77,6 +77,7 @@
     {"name":"Object31","order":14,"path":"objects/Object31/Object31.yy",},
     {"name":"Object32","order":16,"path":"objects/Object32/Object32.yy",},
     {"name":"Object38","order":4,"path":"objects/Object38/Object38.yy",},
+    {"name":"Obj_Pause","order":8,"path":"objects/Obj_Pause/Obj_Pause.yy",},
     {"name":"Objlol2","order":10,"path":"objects/Objlol2/Objlol2.yy",},
     {"name":"Game_Over","order":9,"path":"rooms/Game_Over/Game_Over.yy",},
     {"name":"Intro","order":7,"path":"rooms/Intro/Intro.yy",},
