@@ -1,5 +1,5 @@
 //puntitos de vida
-health = 2;
+health = 3;
 is_dead = false;
 target = Obj_puntoA;
 dmg = 0.5;

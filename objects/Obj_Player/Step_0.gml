@@ -262,3 +262,45 @@ if (enemy_5) {
 }
 #endregion
 #endregion
+
+#region	CAERSE
+if (place_meeting(x, y, Obj_death))
+{
+	if (room == Room2 || room == Room1)
+	{
+		x = 64;	
+		y = 672;
+		global.vida -= 1;
+	}
+	if (room == Room3)
+	{
+		x = 64;
+		y = 576;
+		global.vida -= 1;
+	}
+	if (room == Room4)
+	{
+		x = 96;
+		y = 736;
+		global.vida -= 1;
+	}
+	if (room == Room5)
+	{
+		x = 64;
+		y = 416;
+		global.vida -= 1;
+	}
+	if (room == Room6)
+	{
+		x = 64;
+		y = 512;
+		global.vida -= 1;
+	}
+	if (room == Room7)
+	{
+		x = 64;
+		y = 640;
+		global.vida -= 1;
+	}	
+}
+#endregion

@@ -149,6 +149,23 @@ switch(_text_id)
 	scr_text("Hmp... le faltan algunas paginas... ", "Player");
 	scr_text("Quizá esten por aqui", "Shadow", -1);
 	break;
+	
+	case "Ver_Espada":
+	scr_text("¡Mira ahí hay algo! Intenta darle un click encima", "Shadow", -1);
+	break;
+	
+	case "Page_0":
+	scr_text("¿Una hoja?", "Player");
+	scr_text("Si, el bosque esta lleno de hojas", "Shadow", -1);
+	scr_text("No Orejitas, una hoja de papel, donde escribes y dibujas cosas", "Player");
+	scr_text("Ohhhh... ¿Y se come?", "Shadow", -1);
+	scr_text("...", "Player");
+	scr_text("&", "Shadow", -1);
+	scr_text("No, puedes leer y ver sus dibujos", "Player");
+	scr_text("Aaaah entiendo", "Shadow", -1);
+	scr_text("Veamos que dice....", "Player");
+	scr_text("[Me espera una misión dificíl, ]", "Player");
+	break;
 }
 
 }
