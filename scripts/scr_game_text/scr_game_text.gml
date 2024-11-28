@@ -73,6 +73,11 @@ switch(_text_id)
 	
 	
 	case "Level_8":
+	scr_text("Muy bien amigo, ahora tenemos que tener mucho cuidado, hemos entrado en la guarida de la bestia", "Shadow", -1);
+	scr_text("Muy bien... ¿Alguna idea de como derrotarla?", "Player");
+	scr_text("Lanzarse como loco sería suicidio, así que intentemos otra cosa ¿Ves todas esas partes sueltas de la bestia? Hay que eliminarlas a todas", "Shadow", -1);
+	scr_text("¿Crees que funcione?", "Player");
+	scr_text("Solo hay una forma de averiguarlo ¿No crees?", "Shadow", -1);
 	break;
 	
 	

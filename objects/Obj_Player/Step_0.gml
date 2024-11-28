@@ -9,7 +9,7 @@ dialogo = false;
 Grounded = false;
 
 
-
+#region Audio
 if (room != Room1)
 {
 	global.Can_Attack = true;	
@@ -31,6 +31,7 @@ if (room != Menu)
 {
 	audio_stop_sound(envlvl3);	
 }
+#endregion
 
 #region MOVIMIENTO
 
@@ -183,7 +184,7 @@ if (global.Can_Attack == true) {
 	if (global.Golpeando == false)
 	{
 		mask_index = Spr_Player;
-		sprite_index = Spr_Player;	
+		
 	}
 }
 #endregion

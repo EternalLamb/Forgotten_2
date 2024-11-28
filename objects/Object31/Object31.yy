@@ -6,8 +6,8 @@
   "name":"Object31",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mapa",
-    "path":"folders/Objetos/Mapa.yy",
+    "name":"Fondo",
+    "path":"folders/Objetos/Mapa/Fondo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
