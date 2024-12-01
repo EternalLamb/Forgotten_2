@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Beast_Azote",
-    "path":"folders/Sprites/Enemigos/Beast/Beast_Azote.yy",
+    "name":"Beast_2",
+    "path":"folders/Sprites/Enemigos/Beast/Beast_2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
