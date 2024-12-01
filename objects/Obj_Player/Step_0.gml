@@ -325,3 +325,8 @@ if (place_meeting(x, y, Obj_death))
 	}	
 }
 #endregion
+
+if (global.Freedom == 9)
+{
+		
+}

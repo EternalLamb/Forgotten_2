@@ -11,4 +11,5 @@ global.Golpeando = false;
 global.Dano = false;
 global.Can_Attack = false;
 trepado = false;
+global.Freedom = 0;
 

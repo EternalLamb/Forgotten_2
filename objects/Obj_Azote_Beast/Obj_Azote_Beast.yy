@@ -30,12 +30,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Azote_Idle",
-    "path":"sprites/Spr_Azote_Idle/Spr_Azote_Idle.yy",
+    "name":"Spr_Azote_Appear",
+    "path":"sprites/Spr_Azote_Appear/Spr_Azote_Appear.yy",
   },
   "spriteMaskId":{
-    "name":"Spr_Azote_Idle",
-    "path":"sprites/Spr_Azote_Idle/Spr_Azote_Idle.yy",
+    "name":"Spr_Azote_Appear",
+    "path":"sprites/Spr_Azote_Appear/Spr_Azote_Appear.yy",
   },
   "visible":true,
 }
