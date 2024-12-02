@@ -101,7 +101,6 @@
     {"name":"inst_35EC30C9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6A50B7CA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50ADDC59","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5040E845","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -203,7 +202,6 @@
         {"$GMRInstance":"","%Name":"inst_7FE7080C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FE7080C","objectId":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":1952.0,"y":608.0,},
         {"$GMRInstance":"","%Name":"inst_35EC30C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35EC30C9","objectId":{"name":"Obj_Block","path":"objects/Obj_Block/Obj_Block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":5.5,"x":1952.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_6A50B7CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A50B7CA","objectId":{"name":"Obj_tree","path":"objects/Obj_tree/Obj_tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":416.0,},
-        {"$GMRInstance":"","%Name":"inst_5040E845","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5040E845","objectId":{"name":"Obj_Azote_Beast","path":"objects/Obj_Azote_Beast/Obj_Azote_Beast.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.317647,"scaleY":2.92,"x":288.0,"y":672.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

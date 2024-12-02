@@ -3,6 +3,8 @@
   "%Name":"Obj_Azote_Beast",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_Azote_Beast",
@@ -33,9 +35,6 @@
     "name":"Spr_Azote_Appear",
     "path":"sprites/Spr_Azote_Appear/Spr_Azote_Appear.yy",
   },
-  "spriteMaskId":{
-    "name":"Spr_Azote_Appear",
-    "path":"sprites/Spr_Azote_Appear/Spr_Azote_Appear.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -146,6 +146,12 @@ if (global.vida <= 0) {
 		x = 64;
 		y = 640;
 	}
+	if (room = Room8)
+	{
+		room_restart();
+		x = 32;
+		y = 512;
+	}
 }
 #endregion
 
@@ -323,6 +329,13 @@ if (place_meeting(x, y, Obj_death))
 		y = 640;
 		global.vida -= 1;
 	}	
+	
+	if (room == Room8)
+	{
+		x = 32;
+		y = 512;
+		global.vida -=1;
+	}
 }
 #endregion
 
