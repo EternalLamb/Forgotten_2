@@ -1,4 +1,4 @@
-if (!is_dead) {
+if (is_dead == false) {
     // Cambiar el objetivo si está cerca de un punto
     if (distance_to_object(target) < 5) {
         if (target == Obj_puntoA) {
@@ -14,7 +14,7 @@ if (!is_dead) {
     y += lengthdir_y(speed, dir);
     
     // Comprobar si el enemigo ha muerto
-    if (health <= 0) {
+    if (Vida <= 0) {
         is_dead = true; // Marca al enemigo como muerto
         sprite_index = Spr_enemigo3_dead; 
         image_index = 0; 

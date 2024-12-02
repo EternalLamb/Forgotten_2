@@ -252,7 +252,7 @@ if (enemy2) {
 }
 #endregion
 #region ARAÑA
-var enemy3 = instance_place(x, y + 1, Obj_enemigo4);
+var enemy3 = instance_place(x, y + 1, Obj_Spider);
 if (enemy3) {
     if (enemy3.y > y) {
         global.vida -= 0.5; 
@@ -260,7 +260,7 @@ if (enemy3) {
 		vspeed = 0;
     }
 }
-enemy3 = instance_place(x, y - 1, Obj_enemigo4);
+enemy3 = instance_place(x, y - 1, Obj_Spider);
 if (enemy3) {
     if (enemy3.y < y) {
         global.vida -= 0.5;

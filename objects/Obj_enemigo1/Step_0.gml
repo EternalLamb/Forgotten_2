@@ -14,7 +14,7 @@ if (!is_dead) {
     y += lengthdir_y(speed, dir);
     
     // Comprobar si el enemigo ha muerto
-    if (health <= 0) {
+    if (Vida  <= 0) {
         is_dead = true; // Marca al enemigo como muerto
         sprite_index = Spr_Rino_Dead; // Cambia a la animación de muerte
         image_index = 0; // Comienza desde el primer frame de la animación de muerte

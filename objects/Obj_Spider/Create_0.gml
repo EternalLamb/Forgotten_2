@@ -1,5 +1,5 @@
 //puntitos de vida
-health = 2;
+Vida = 2;
 is_dead = false;
 target = Obj_puntoA;
 dmg = 0.5;
@@ -15,6 +15,6 @@ puntoB = instance_nearest(x, y, Obj_puntoB);
 // Definir el objetivo inicial
 objetivo_x = puntoB.x;
 
-sprite_index = Spr_enemigo1_move
+sprite_index = Spr_enemigo4_move
 Atacando = false;
 Danando = false;

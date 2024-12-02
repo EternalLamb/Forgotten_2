@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_enemigo4",
+  "%Name":"Obj_Spider",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_enemigo4",
+  "name":"Obj_Spider",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemigos",
@@ -30,14 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Spr_enemigo4_move",
-    "path":"sprites/Spr_enemigo4_move/Spr_enemigo4_move.yy",
+    "name":"Spr_enemigo4",
+    "path":"sprites/Spr_enemigo4/Spr_enemigo4.yy",
   },
-  "spriteMaskId":{
-    "name":"Spr_enemigo4_attack",
-    "path":"sprites/Spr_enemigo4_attack/Spr_enemigo4_attack.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
