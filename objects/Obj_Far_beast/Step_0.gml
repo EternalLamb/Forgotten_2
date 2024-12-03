@@ -39,7 +39,8 @@ if (!(place_meeting(x-640, y, Obj_Player) || (place_meeting(x-512, y, Obj_Player
         }
   }
   if (is_dead) {
-	 sprite_index = Spr_far_die;  
+	 sprite_index = Spr_far_die;
+	 image_speed = 0.5;
 	 Atacando = false;
     // Verifica si la animación de muerte ha terminado
     if (image_index >= image_number - 1) { // Si está en el último frame

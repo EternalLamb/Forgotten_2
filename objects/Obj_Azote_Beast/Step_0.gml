@@ -4,20 +4,18 @@ if (image_index == 12)
 	sprite_index = Spr_Azote_Idle;
 }
 if (is_dead) {
-	 sprite_index = Spr_Azote_Die;  
+	 sprite_index = Spr_Azote_Die; 
+	 Atacando = false;
     // Verifica si la animación de muerte ha terminado
     if (image_index >= image_number - 1) { // Si está en el último frame
         instance_destroy(); // Destruye el enemigo al final de la animación de muerte
     }
 }
-if ((place_meeting(x-128,y,Obj_Player) || place_meeting(x-96,y,Obj_Player) || place_meeting(x-64,y,Obj_Player)) && Atacando == false)
+if ((place_meeting(x-128,y,Obj_Player) || place_meeting(x-96,y,Obj_Player) || place_meeting(x-64,y,Obj_Player) ||  place_meeting(x-32,y,Obj_Player)) && Atacando == false)
 {
 	sprite_index = Spr_Azote_Attack;
-	if(!audio_is_playing(Azote))
-	{	
-	audio_play_sound(Azote,2,false);
-	}
 	Atacando = true;	
+	audio_play_sound(Azote,1,false);
 }
 else if (image_index == 17)
 {

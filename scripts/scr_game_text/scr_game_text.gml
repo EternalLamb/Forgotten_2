@@ -159,6 +159,10 @@ switch(_text_id)
 	scr_text("¡Mira ahí hay algo! Intenta darle un click encima", "Shadow", -1);
 	break;
 	
+	case "Warning":
+	scr_text("¡Cuidado!", "Shadow", -1);
+	break;
+	
 	case "Page_0":
 	scr_text("¿Una hoja?", "Player");
 	scr_text("Si, el bosque esta lleno de hojas", "Shadow", -1);
