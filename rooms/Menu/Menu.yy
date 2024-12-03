@@ -15,8 +15,8 @@
   "layers":[
     {"$GMREffectLayer":"","%Name":"Effect_1","depth":0,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
         {"name":"g_MaskStart","type":0,"value":"0",},
-        {"name":"g_MaskEnd","type":0,"value":"0.325",},
-        {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
+        {"name":"g_MaskEnd","type":0,"value":"0.7",},
+        {"name":"g_MaskTexture","type":2,"value":null,},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_46BB77A3","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_46BB77A3","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"spriteId":{"name":"Spr_Jugar","path":"sprites/Spr_Jugar/Spr_Jugar.yy",},"x":380.0,"y":348.0,},

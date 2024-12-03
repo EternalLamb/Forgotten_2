@@ -1,5 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+ 
 if (image_index == 12)
 {
 	sprite_index = Spr_Azote_Idle;
@@ -14,13 +13,17 @@ if (is_dead) {
 if ((place_meeting(x-128,y,Obj_Player) || place_meeting(x-96,y,Obj_Player) || place_meeting(x-64,y,Obj_Player)) && Atacando == false)
 {
 	sprite_index = Spr_Azote_Attack;
+	if(!audio_is_playing(Azote))
+	{	
+	audio_play_sound(Azote,2,false);
+	}
 	Atacando = true;	
 }
-else if (image_index == 20)
+else if (image_index == 17)
 {
 	sprite_index = Spr_Azote_Idle;
 }
-if (!place_meeting(x-128,y,Obj_Player))
+if (!((place_meeting(x-128,y,Obj_Player) || place_meeting(x-96,y,Obj_Player) || place_meeting(x-64,y,Obj_Player))))
 {
 	Atacando = false;
 }
