@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.541134,
+  "duration":2.118141,
   "name":"Azote",
   "parent":{
     "name":"Sonidos",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Azote.wav",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

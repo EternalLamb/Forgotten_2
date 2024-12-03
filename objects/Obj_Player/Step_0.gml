@@ -332,8 +332,9 @@ if (place_meeting(x, y, Obj_death))
 	
 	if (room == Room8)
 	{
-		x = 32;
-		y = 512;
+		
+		x = 64;
+		y = 576;;
 		global.vida -=1;
 	}
 }

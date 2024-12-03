@@ -137,7 +137,7 @@ switch(_text_id)
 	scr_text("Dice 'Dia 5, el bosque cada vez se hace mas denso y apenas puedo ver, debo cumplir con la mision de derrotar a la bestia, solo asi la paz volverá '", "Player");
 	scr_text("La bestia? Ese aventurero es uno de los muchos que han intentado derrotarla...", "Shadow", -1);
 	scr_text("La bestia?", "Player");
-	scr_text("Si, la bestia es.... una bestia *risita* esta con su poder oscuro obliga a los habitantes del bosque a proteger su guarida, corrompiendo sus formas y mentes", "Shadow", -1);
+	scr_text("Si, la bestia es.... una bestia -risita-... esta con su poder oscuro obliga a los habitantes del bosque a proteger su guarida, corrompiendo sus formas y mentes", "Shadow", -1);
 	scr_text("Suena aterrador... crees que pueda derrotarla algun dia?", "Player");
 	scr_text("No lo se, la bestia es muy fuerte, muchos han intentado derrotarla", "Shadow", -1);
 	scr_text("Contigo a mi lado se que podre hacerlo", "Player");
@@ -174,6 +174,15 @@ switch(_text_id)
 	scr_text("Aaaah entiendo", "Shadow", -1);
 	scr_text("Veamos que dice....", "Player");
 	scr_text("[Me espera una misión dificíl, ]", "Player");
+	break;
+	
+	case "Throw":
+	scr_text("Creo que no tenemos mas opcion que dejarnos caer por esta cadena....", "Shadow", -1);
+	scr_text("¿Porque lo dices?", "Player");
+	scr_text("No hay nada enfrente, necesitamos otro camino y quiza por abajo podamos encontrar algo", "Shadow", -1);
+	scr_text("¿Seguro de esto?", "Player");
+	scr_text("Confía en mi amigo, todo estará bien", "Shadow", -1);
+	scr_text("Confío en ti", "Player");
 	break;
 }
 
