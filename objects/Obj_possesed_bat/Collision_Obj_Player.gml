@@ -1,9 +1,9 @@
 if (global.Dano == true) { //Si el player esta golpeando, este tendrá prioridad.
     if (!is_dead) { 
-        health -= 1;
+        Vida -= 1;
 
         // Comprueba si el enemigo ha muerto
-        if (health <= 0) {
+        if (Vida <= 0) {
             is_dead = true;
             sprite_index = Spri_Beast_1_die; 
             image_index = 0; 

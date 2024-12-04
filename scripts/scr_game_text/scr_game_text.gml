@@ -177,13 +177,19 @@ switch(_text_id)
 	break;
 	
 	case "Throw":
-	scr_text("Creo que no tenemos mas opcion que dejarnos caer por esta cadena....", "Shadow", -1);
+	scr_text("Creo que no tenemos mas opcion que dejarnos caer...", "Shadow", -1);
 	scr_text("¿Porque lo dices?", "Player");
 	scr_text("No hay nada enfrente, necesitamos otro camino y quiza por abajo podamos encontrar algo", "Shadow", -1);
 	scr_text("¿Seguro de esto?", "Player");
 	scr_text("Confía en mi amigo, todo estará bien", "Shadow", -1);
 	scr_text("Confío en ti", "Player");
 	break;
+	
+	case "FINAL":
+	scr_text("Espera ¿No que estabamos cayendo?", "Shadow", -1);
+	scr_text("No lo se... ni siquiera se donde estamos....", "Player");
+	scr_text("Creo que estamos en algun lugar dentro de la bestía", "Shadow", -1);
+	scr_text("Veamos si podemos derrotarla aquí", "Player");
 }
 
 }

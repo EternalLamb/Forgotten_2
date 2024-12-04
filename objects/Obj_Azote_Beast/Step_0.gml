@@ -2,36 +2,36 @@
 {
 	sprite_index = Spr_Azote_Idle;
 }
-if (place_meeting(x-128,y,Obj_Player))
+if ((place_meeting(x-160, y , Obj_Player) || place_meeting(x-150, y , Obj_Player) || place_meeting(x-128, y , Obj_Player) || place_meeting(x-96, y , Obj_Player) || place_meeting(x-64, y , Obj_Player) || place_meeting(x-32, y , Obj_Player) || place_meeting(x-16, y , Obj_Player)) && Atacando == false)
 {
-	Atacando = true	
-}
-else
-{
-	Atacando = false	
-}
-if (Atacando == true)
-{
-	mask_index = Spr_Azote_Attack;
+	Atacando = true;
 	sprite_index = Spr_Azote_Attack;
-	if (image_index == 1)
+	if (image_index == 18)
 	{
-		if (!audio_is_playing(Azote))
-		{
-			audio_play_sound(Azote,1,1);		
-		}
+		Atacando = false;
 	}
 }
-if (Atacando == false)
+else if (image_index == 18)
 {
-	mask_index = Spr_Azote_Idle;
+	Atacando = false;
+
+}
+if (!(place_meeting(x-160, y , Obj_Player) || place_meeting(x-128, y , Obj_Player) || place_meeting(x-96, y , Obj_Player) || place_meeting(x-64, y , Obj_Player) || place_meeting(x-32, y , Obj_Player) || place_meeting(x-16, y , Obj_Player)) && image_index == 15)
+{
+	Atacando = false;
 	sprite_index = Spr_Azote_Idle;
-	audio_stop_sound(Azote);
 }
 
 if ((image_index < 2 || image_index > 6) && Atacando == true)
 {
-	mask_index = Spr_Azote_Idle;	
+	mask_index = Spr_Azote_Idle;
+}
+else if ((image_index > 2 && image_index <= 6) && Atacando == true)
+{
+	if (!audio_is_playing(Azote))
+	{
+		audio_play_sound(Azote,1,false);	
+	}
 }
 
 if (Atacando && global.Golpeando == false) 

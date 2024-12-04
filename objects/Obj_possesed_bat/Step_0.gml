@@ -14,7 +14,7 @@ if (!is_dead) {
     y += lengthdir_y(speed, dir);
     
     // Comprobar si el enemigo ha muerto
-    if (health <= 0) {
+    if (Vida <= 0) {
         is_dead = true; // Marca al enemigo como muerto
         sprite_index = Spr_enemigo3_dead; 
         image_index = 0; 
