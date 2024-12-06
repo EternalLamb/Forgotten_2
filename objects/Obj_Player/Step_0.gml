@@ -337,6 +337,13 @@ if (place_meeting(x, y, Obj_death))
 		y = 576;;
 		global.vida -=1;
 	}
+	if (room == Room9)
+	{
+		
+		x = 64;
+		y = 512;
+		global.vida -=1;
+	}
 }
 #endregion
 

@@ -1,12 +1,18 @@
-if (place_meeting(x-1200, y, Obj_Player) || (place_meeting(x-1000, y, Obj_Player)) || (place_meeting(x-1100, y, Obj_Player)) || (place_meeting(x-256, y, Obj_Player)) || (place_meeting(x-128, y, Obj_Player)))
+if (place_meeting(x-350, y, Obj_Player) || place_meeting(x-310, y, Obj_Player) || place_meeting(x-280, y, Obj_Player)) || place_meeting(x-230, y, Obj_Player)
 {
-	sprite_index = Spr_Beast_2_Attack	
+	sprite_index = Spr_Boss_Attack_far;	
 	Atacando = true;
 }
-else if(image_index == 24)
+else if(place_meeting(x-200, y, Obj_Player))
 {
-	sprite_index = Spr_Beast_2;
-	Atacando = false
+	sprite_index = Spr_Azote_Attack;
+	Atacando = true;
+}
+else if (place_meeting(x + 200, y, Obj_Player))
+{
+	sprite_index = Spr_Azote_Attack;
+	image_xscale = -3.5;
+	Atacando = true;	
 }
 if (image_index >= 24 && image_index == 35)
 {
@@ -14,14 +20,14 @@ if (image_index >= 24 && image_index == 35)
 }
 else
 {
-	mask_index = Spr_Beast_2_Attack;	
+	mask_index = Spr_Boss_Attack_far;	
 }
 if (!(place_meeting(x-640, y, Obj_Player) || (place_meeting(x-512, y, Obj_Player)) || (place_meeting(x-384, y, Obj_Player)) || (place_meeting(x-256, y, Obj_Player)) || (place_meeting(x-128, y, Obj_Player))))
 {	
 	Atacando = false;
 }
   if (Atacando && global.Golpeando == false) {
-	  mask_index = Spr_Beast_2_Attack;
+	  mask_index = Spr_Boss_Attack_far;
         // Solo hace daño si está en el frame adecuado y el jugador está dentro del rango
         if (image_index >= 2 && image_index <= 6 && place_meeting(x-1,y,Obj_Player) || place_meeting(x+1,y,Obj_Player) ) {
             if (!Danando) {

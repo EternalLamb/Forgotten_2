@@ -3,7 +3,7 @@
   "%Name":"Spr_Boss_Attack_far",
   "bboxMode":0,
   "bbox_bottom":111,
-  "bbox_left":96,
+  "bbox_left":126,
   "bbox_right":357,
   "bbox_top":17,
   "collisionKind":4,
@@ -24,8 +24,8 @@
     {"$GMSpriteFrame":"","%Name":"868bc7f9-57d2-4271-b275-2145db5e5c6c","name":"868bc7f9-57d2-4271-b275-2145db5e5c6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"7e0ec744-770f-4283-b69f-e4e377345a8c","name":"7e0ec744-770f-4283-b69f-e4e377345a8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f09bb6b3-9303-4b71-bc4d-1d3ab15ce38e","name":"f09bb6b3-9303-4b71-bc4d-1d3ab15ce38e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"efb1997b-57e6-4e8c-bdf7-e23bf8364f8d","name":"efb1997b-57e6-4e8c-bdf7-e23bf8364f8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"a36ea518-3e94-449f-ad44-919fd8121dc7","name":"a36ea518-3e94-449f-ad44-919fd8121dc7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"8169cef5-6a21-482b-af42-94f7578b586c","name":"8169cef5-6a21-482b-af42-94f7578b586c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"10486a68-4d83-4c7c-905a-56a319390756","name":"10486a68-4d83-4c7c-905a-56a319390756","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -136,11 +136,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f09bb6b3-9303-4b71-bc4d-1d3ab15ce38e","path":"sprites/Spr_Boss_Attack_far/Spr_Boss_Attack_far.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4cb43a87-c3c0-4289-bbd7-6a5a82b48c5b","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","path":"sprites/Spr_Boss_Attack_far/Spr_Boss_Attack_far.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5a711032-d34a-4d5a-ac08-9c892ff51c34","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"efb1997b-57e6-4e8c-bdf7-e23bf8364f8d","path":"sprites/Spr_Boss_Attack_far/Spr_Boss_Attack_far.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"86a6ce73-e043-4de0-bef9-adb73feca7b0","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"86a6ce73-e043-4de0-bef9-adb73feca7b0","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd2e6388-d499-4a31-b06c-67b6ddfe7cf4","path":"sprites/Spr_Boss_Attack_far/Spr_Boss_Attack_far.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a711032-d34a-4d5a-ac08-9c892ff51c34","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a36ea518-3e94-449f-ad44-919fd8121dc7","path":"sprites/Spr_Boss_Attack_far/Spr_Boss_Attack_far.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"55029bf1-83a5-443d-a333-96bb77ce18df","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
