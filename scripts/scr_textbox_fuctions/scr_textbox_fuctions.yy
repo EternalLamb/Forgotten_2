@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_textbox_fuctions",
   "isCompatibility":false,
   "isDnD":false,

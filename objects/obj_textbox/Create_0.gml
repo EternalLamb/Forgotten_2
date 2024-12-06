@@ -14,7 +14,14 @@ txtb_img_spd = 6/60;
 //the text
 page = 0;
 page_number = 0;
-text[0] = "";
+if (room == Page_1)
+{
+	text[0] = "lol";
+}
+else
+{
+	text[0] = "";	
+}
 text_length[0] = string_length(text[0]);
 
 

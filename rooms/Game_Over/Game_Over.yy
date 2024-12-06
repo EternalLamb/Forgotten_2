@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"",
+  "$GMRoom":"v1",
   "%Name":"Game_Over",
   "creationCodeFile":"",
   "inheritCode":false,

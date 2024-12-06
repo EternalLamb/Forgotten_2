@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":280.2184,
+  "duration":0.0,
   "name":"environment",
   "parent":{
     "name":"Sonidos",

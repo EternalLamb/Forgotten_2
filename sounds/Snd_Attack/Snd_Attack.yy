@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.138792,
+  "duration":0.0,
   "name":"Snd_Attack",
   "parent":{
     "name":"Sonidos",

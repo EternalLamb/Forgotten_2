@@ -1,4 +1,4 @@
-accept_key = mouse_check_button_pressed(mb_left);
+accept_key = mouse_check_button_pressed(vk_space);
 
 textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y = camera_get_view_y(view_camera[0]) + 200;
@@ -166,7 +166,10 @@ if (speaker_sprite[page] != noone)
 	draw_sprite_ext(sprite_index, image_index, _speaker_x, textbox_y, speaker_side[page], 1, 0, c_white, 1);
 	draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
 }
-
+if(room == Page_1 || room == Page_2 || room == Page_3 || room == Page_4 || room == Page_5)
+{
+	draw_sprite_ext(txtb_spr[page], txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
+}
 //draw the text 
  for (var c = 0; c < draw_char; c++)
  {

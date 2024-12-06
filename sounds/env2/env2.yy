@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":89.155914,
+  "duration":0.0,
   "name":"env2",
   "parent":{
     "name":"Sonidos",
